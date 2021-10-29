@@ -13,18 +13,22 @@
   <body>
     <div class="navbar">
       <nav>
-        <p>@teovladusic</p>
+        <p>
+          <a href="#introduction">@teovladusic</a>
+        </p>
         <ul>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#introduction">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#project-one">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="nav-right green-btn">Contact Me</button>
+        <button class="nav-right green-btn">
+          <a href="#contact">Contact Me</a>
+        </button>
       </nav>
     </div>
 
-    <section class="introduction">
+    <section id="introduction" class="introduction">
       <div class="left">
         <p class="text-link">-- introduction</p>
         <h3>
@@ -35,14 +39,16 @@
           I am a software engineer from Croatia. I have specialties in building
           modern Android (Kotlin and Java) and ASP.NET C# applications.
         </p>
-        <button class="green-btn">Contact Me</button>
+        <button class="green-btn">
+          <a href="#contact">Contact Me</a>
+        </button>
       </div>
       <div class="right">
         <img src="./images/coding.svg" alt="Coding" />
       </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
       <div class="left">
         <div class="card">
           <img src="./images/android-icon.svg" alt="android-icon" />
@@ -100,7 +106,9 @@
           events and discounts. The app uses ASP.NET API as it's main data
           source.
         </p>
-        <p class="text-link">-> See the Code</p>
+        <a href="https://github.com/teovladusic/Keopi" class="text-link"
+          >-> See the Code</a
+        >
       </div>
       <div class="right">
         <img src="./images/keopi.jpg" alt="project" />
@@ -116,7 +124,9 @@
         cafe bars and events. Users can save cafes, get notifications for events
         and discounts. The app uses ASP.NET API as it's main data source.
       </p>
-      <p class="text-link">-> See the Code</p>
+      <a href="https://github.com/teovladusic/Keopi" class="text-link"
+        >-> See the Code</a
+      >
     </section>
 
     <section class="project-image-right desktop">
@@ -133,7 +143,9 @@
           console. The app accelerated process of verifying employer’s route and
           covered area.
         </p>
-        <p class="text-link">-> See the Code</p>
+        <a href="https://github.com/teovladusic/prizma" class="text-link"
+          >-> See the Code</a
+        >
       </div>
     </section>
 
@@ -148,7 +160,9 @@
         console. The app accelerated process of verifying employer’s route and
         covered area.
       </p>
-      <p class="text-link">-> See the Code</p>
+      <a href="https://github.com/teovladusic/prizma" class="text-link"
+        >-> See the Code</a
+      >
     </section>
 
     <section id="project-three" class="project-image-left desktop">
@@ -161,7 +175,9 @@
           find each other using nickanames, send messages and get notified using
           the Firebase Push Notifications.
         </p>
-        <p class="text-link">-> See the Code</p>
+        <a href="https://github.com/teovladusic/Messaging-app" class="text-link"
+          >-> See the Code</a
+        >
       </div>
       <div class="right">
         <img src="./images/messaginapp.jpg" alt="project" />
@@ -178,7 +194,9 @@
         each other using nickanames, send messages and get notified using the
         Firebase Push Notifications.
       </p>
-      <p class="text-link">-> See the Code</p>
+      <a href="https://github.com/teovladusic/Messaging-app" class="text-link"
+        >-> See the Code</a
+      >
     </section>
 
     <section class="testimonials">
@@ -307,31 +325,35 @@
       </div>
     </section>
 
-    <section class="last-words">
+    <section id="contact" class="last-words">
       <div>
         <section class="green-line"></section>
         <h4>Let's work together</h4>
         <p>
           If you have any questions about my services, feel free to contact me.
-          You can text me through any social media listed down, or email me
-          clicking on the button below.
+          You can text me through my UpWork profile clicking here.
         </p>
-        <button class="green-btn">Send an Email</button>
+        <button class="green-btn">
+          <a href="https://www.upwork.com/freelancers/~013b050ec9859e9121"
+            >Contact Me On UpWork</a
+          >
+        </button>
       </div>
     </section>
     <footer>
-      <p class="left desktop">@teovladusic</p>
+      <p class="left desktop">
+        <a href="#introduction">@teovladusic</a>
+      </p>
       <div class="footer-bottom mobile">
-        <p class="logo">@teovladusic</p>
+        <p class="logo">
+          <a href="#introduction">@teovladusic</a>
+        </p>
         <div class="images">
           <a href="https://github.com/teovladusic">
             <img src="./images/github.png" alt="github" />
           </a>
           <a href="https://www.upwork.com/freelancers/~013b050ec9859e9121">
             <img src="./images/upwork.svg" alt="upwork" />
-          </a>
-          <a href="https://www.linkedin.com/in/teo-vladusic/">
-            <img src="./images/linkedin.svg" alt="linkedin" />
           </a>
         </div>
       </div>
@@ -342,9 +364,6 @@
         </a>
         <a href="https://www.upwork.com/freelancers/~013b050ec9859e9121">
           <img src="./images/upwork.svg" alt="upwork" />
-        </a>
-        <a href="https://www.linkedin.com/in/teo-vladusic/">
-          <img src="./images/linkedin.svg" alt="linkedin" />
         </a>
       </div>
     </footer>

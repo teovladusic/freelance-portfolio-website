@@ -1,9 +1,16 @@
+html,
 body {
   background-color: #404e4d;
   margin: 0;
   padding: 0;
   color: white;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .green-btn {
@@ -12,6 +19,10 @@ body {
   font-family: "Montserrat", sans-serif;
   color: white;
   cursor: pointer;
+}
+
+.green-btn a {
+  color: white;
 }
 
 .mobile {
@@ -49,6 +60,10 @@ section {
         margin: 0px 10px;
         font-size: 25px;
         cursor: pointer;
+
+        a {
+          color: white;
+        }
       }
     }
 
@@ -195,6 +210,7 @@ section {
       color: #9bc53d;
       font-weight: 300;
       font-size: 23px;
+      text-decoration: none;
     }
 
     h4 {
@@ -247,6 +263,7 @@ section {
       color: #9bc53d;
       font-weight: 300;
       font-size: 23px;
+      text-decoration: none;
     }
 
     h4 {
