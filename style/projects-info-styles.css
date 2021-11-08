@@ -1,0 +1,383 @@
+html,
+body {
+  background-color: #404e4d;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.green-btn {
+  border: none;
+  background-color: #9bc53d;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.mobile {
+  display: none;
+}
+
+.project-mobile {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  padding: 20px 150px;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar nav p {
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 10%;
+}
+
+.navbar nav ul li {
+  margin: 0px 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.navbar nav ul li a {
+  color: white;
+}
+
+.navbar nav button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 22px;
+  min-width: 170px;
+}
+
+.project-image-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 250px;
+  margin-top: 50px;
+}
+
+.project-image-left .left {
+  display: inline-block;
+  width: 40%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.project-image-left .left img {
+  width: 100%;
+}
+
+.project-image-left .right {
+  width: 40%;
+}
+
+.project-image-left .right .text-link {
+  color: #9bc53d;
+  font-weight: 300;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.project-image-left .right h4 {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.project-image-left .right p {
+  font-weight: 300;
+  font-size: 23px;
+}
+
+#project-info-main h4 {
+  font-size: 44px;
+}
+
+.project-image-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 250px;
+  margin-top: 50px;
+}
+
+.project-image-right .right {
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.project-image-right .right img {
+  width: 60%;
+}
+
+.project-image-right .left {
+  width: 40%;
+}
+
+.project-image-right .left .text-link {
+  color: #9bc53d;
+  font-weight: 300;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.project-image-right .left h4 {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.project-image-right .left p {
+  font-weight: 300;
+  font-size: 23px;
+}
+
+footer {
+  padding: 20px 100px;
+  margin-top: 150px;
+  background-color: #262e2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .left {
+  width: 33.33%;
+  text-align: left;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+footer .center {
+  text-align: center;
+  width: 33.33%;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+footer .right {
+  width: 33.33%;
+  text-align: end;
+}
+
+footer .right img {
+  width: 40px;
+  height: 40px;
+  margin: 0px 4px;
+  background-color: #404e4d;
+  padding: 14px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  section {
+    padding: 30px 80px;
+  }
+  .project-image-left,
+  .project-image-right {
+    padding: 30px 140px;
+  }
+  .navbar {
+    padding: 20px 80px;
+  }
+  .navbar nav p {
+    font-size: 24px;
+  }
+  .navbar nav ul {
+    margin-right: 0;
+  }
+  .navbar nav ul li {
+    font-size: 20px;
+  }
+  .navbar nav button {
+    min-width: 170px;
+    font-size: 20px;
+    padding: 10px 12px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  footer {
+    display: block;
+    padding: 20px 30px;
+  }
+  footer .center {
+    width: 100%;
+  }
+  footer .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-bottom .logo {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  footer .footer-bottom .images img {
+    width: 25px;
+    height: 25px;
+    margin: 0px 4px;
+    background-color: #404e4d;
+    padding: 12px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  section,
+  .navbar {
+    padding: 30px 40px;
+  }
+  .project-image-left,
+  .project-image-right {
+    padding: 30px 60px;
+  }
+  .navbar {
+    padding: 30px 40px;
+  }
+  .navbar nav ul {
+    display: none;
+  }
+  footer .left {
+    font-size: 24px;
+  }
+  footer .center {
+    font-size: 18px;
+  }
+  footer .right a img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  section,
+  .navbar {
+    padding: 15px 20px;
+  }
+  .navbar {
+    padding: 15px 20px;
+  }
+  .navbar nav p {
+    font-size: 20px;
+  }
+  .navbar nav button {
+    min-width: 114px;
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+  .project-desktop {
+    display: none;
+  }
+  #project-one {
+    margin-top: 0px;
+  }
+  #project-two img,
+  #project-four img {
+    width: 50%;
+  }
+  #project-three p {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  #project-three .first {
+    margin-top: 50px;
+  }
+  .project-mobile {
+    display: block;
+    padding: 0px 50px;
+    margin-top: 160px;
+  }
+  .project-mobile .text-link {
+    color: #9bc53d;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  .project-mobile h4 {
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .project-mobile p {
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .project-mobile img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+  footer {
+    padding: 10px 15px;
+  }
+  footer .center {
+    font-size: 13px;
+  }
+  footer .footer-bottom .logo {
+    font-size: 20px;
+  }
+  footer .footer-bottom .images img {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*# sourceMappingURL=projects-info-styles.css.map */

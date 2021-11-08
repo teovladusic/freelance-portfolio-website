@@ -217,6 +217,10 @@ section {
   font-size: 23px;
 }
 
+.services .right p a {
+  color: #9bc53d;
+}
+
 .project-image-left {
   display: -webkit-box;
   display: -ms-flexbox;
